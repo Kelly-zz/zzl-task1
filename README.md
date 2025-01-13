@@ -215,10 +215,12 @@ void inplace_swap(char *x,char *y)
 对字符串进行Huffman编码，得到WPL和各字符编码：
 
 （1）DEAEDDEDBCEEECECDEEDDBEEECEEDEE
-![alt text](image-3.png)
+![f05358f3c5f5db991e62511d98f4e7f](https://github.com/user-attachments/assets/548cd313-eb37-416a-895c-9bff88d6d646)
+
 
 （2）EEBEACCCCAADACCBCCCCECCCEEECCCE
-![alt text](image-4.png)
+![631af423c1eb762426e8dde468dc4ef](https://github.com/user-attachments/assets/7a431c29-9eeb-40e7-860d-7f3d57a82674)
+
 
 ---
 
@@ -232,5 +234,7 @@ void inplace_swap(char *x,char *y)
 同时具有大小写：将 arr_big 数组的大小从 27 改为 53，判断条件变为str[i] == (char)(0x41 + j)||str[i] == (char)(0x41 + 7 + j)，同时j的范围变成0~51，打印哈夫曼编码时根据 i 的值是否小于26决定是打印大写字母还是小写字母，使用 'A' + i 或 'a' + (i - 26) 来打印相应字符。
 
 3. 使用画图工具画出上述两个Huffman生成树的生成过程
-![alt text](image-1.png)
-![alt text](image-2.png)
+![26ae175eeb8bc9421c3c0487bb6599b](https://github.com/user-attachments/assets/78a9a476-d732-452e-84a8-aa7d2a4bc764)
+
+![e6923d1e2d0d44a02a091d772c9a89a](https://github.com/user-attachments/assets/301eb6d8-d722-402c-8701-5ec18c0417a2)
+
